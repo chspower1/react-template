@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "include": [
+      "src/**/*"
+    ],
     "baseUrl": "src",
     "paths": {
       "@apis/*": [
@@ -21,13 +24,13 @@
         "hooks/*"
       ],
       "@pages/*": [
-        "components/pages/*"
+        "pages/*"
       ],
       "@store/*": [
         "store/*"
       ],
-      "@types/*": [
-        "types/*"
+      "@_types/*": [
+        "_types/*"
       ],
       "@utils/*": [
         "utils/*"
